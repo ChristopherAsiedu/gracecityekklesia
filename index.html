@@ -122,9 +122,8 @@
 
     .pastor { padding-block: 84px; background: var(--green); color: var(--white); }
     .pastor-grid { display: grid; grid-template-columns: .76fr 1.1fr; gap: 75px; align-items: center; }
-    .pastor-portrait { position: relative; display: flex; min-height: 355px; align-items: end; overflow: hidden; padding: 26px; background: radial-gradient(circle at 50% 40%, rgba(189,152,83,.2), transparent 34%), linear-gradient(145deg, #455844, #293a2c); }
+    .pastor-portrait { position: relative; display: flex; min-height: 355px; align-items: end; overflow: hidden; padding: 26px; background: linear-gradient(180deg, rgba(25,41,29,.03) 35%, rgba(25,41,29,.82) 100%), url("assets/pastor-augustine-kudavor.png") center 28% / cover, #293a2c; }
     .pastor-portrait::before { position: absolute; inset: 13px; border: 1px solid rgba(230,213,170,.48); content: ""; }
-    .portrait-emblem { position: absolute; top: 40%; left: 50%; display: grid; width: 134px; height: 134px; place-items: center; transform: translate(-50%, -50%); border: 1px solid rgba(230,213,170,.54); border-radius: 50%; box-shadow: 0 0 0 18px rgba(230,213,170,.045), 0 0 0 38px rgba(230,213,170,.035); color: var(--gold-light); font: 54px var(--serif); }
     .portrait-caption { position: relative; }
     .portrait-caption strong { display: block; font: 500 23px var(--serif); }
     .portrait-caption span { color: var(--gold-light); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
@@ -416,8 +415,7 @@
 
     <section class="pastor" id="pastor">
       <div class="container pastor-grid">
-        <div class="pastor-portrait" role="img" aria-label="Portrait placeholder for Lead Pastor Augustine Kudavor">
-          <span class="portrait-emblem" aria-hidden="true">✝</span>
+        <div class="pastor-portrait" role="img" aria-label="Portrait of Lead Pastor Augustine Kudavor">
           <div class="portrait-caption"><strong>Pastor Augustine Kudavor</strong><span>Lead Pastor</span></div>
         </div>
         <div>
